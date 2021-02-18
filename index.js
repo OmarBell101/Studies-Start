@@ -13,21 +13,21 @@
 */
 
 // 1. declaration //
-var myName;
+var OmarBell;
 
 /*
 * At the declaration phase, the variable myName is undefined because we have NOT initialized
 * it to anything
 */
-console.log(myName); // prints => undefined
+console.log(OmarBell); // prints => undefined
 
 // 2. initialization or assignment //
 myName = 'john';
-console.log(myName); // prints => john
+console.log(OmarBell); // prints => john
 
 // 3. re-assignment //
 myName = 'bob';
-console.log(myName); // prints => bob
+console.log(OmarBell); // prints => bob
 
 // NOTE: We can assign and re-assign anything to a variable - we cannot do this with constants //
 var myVariable = 1;
